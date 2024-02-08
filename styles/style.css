@@ -219,3 +219,151 @@
   padding-block-start: 290px;
   letter-spacing: 4px;
 }
+
+.main__block-title br {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+  .header {
+    min-block-size: 1024px;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+
+  .decorated-zone::before {
+    inset-block-start: 20px;
+    inset-inline-end: 20px;
+  }
+
+  .decorated-zone::after {
+    inset-block-end: 20px;
+    inset-inline-start: 20px;
+  }
+
+  .header__design-rec {
+    inset-inline-end: 48px;
+    inset-block-start: 20px;
+  }
+  
+  .header__theme-menu-button {
+    margin-inline-end: 5px;
+  }
+
+  .header__theme-menu-list {
+    margin-block-start: 170px;
+    margin-block-end: 176px;
+  }
+
+  .header__text {
+    max-width: 364px;
+    float: right;
+  }
+
+  .header__title {
+    margin-bottom: 160px;
+    font-size: var(--font-size-tablet-and-desktop);
+  }
+
+  /*  */
+  .main {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+  }
+
+  .main__block {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+
+  .main__block:nth-child(3) {
+    margin-bottom: 62px;
+  }
+
+  .main__block-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__block-title-info {
+    margin-bottom: 9px;
+  }
+
+  .title-decor {
+    margin-bottom: 20px;
+  }
+
+  .no-flex {
+    display: block;
+  }
+
+  .main__block-title {
+    min-width: 236px;
+  }
+
+  .main__block-title br {
+    display: block;
+  }
+
+  .main-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-gallery {
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .main-gallery__img-1 {
+    grid-column: 1 / 3;
+  }
+
+  .main-gallery__img-2 {
+    grid-row: 1 / 3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .main-gallery__img-3 {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .main-gallery__img-4 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+
+  .main-gallery__img-5 {
+    grid-row: 3 / 4;
+    grid-column: 2 / 4;
+  }
+
+  .footer {
+    min-block-size: 1024px;
+    margin-bottom: 15px;
+  }
+  
+  .decorated-zone:nth-child(3)::before {
+    inset-block-start: 32px;
+    inset-inline-end: 20px;
+  }
+
+  .decorated-zone:nth-child(3)::after {
+    inset-block-end: 7px;
+    inset-inline-start: 20px;
+  }
+
+  .footer__title {
+    font-size: var(--font-size-tablet-and-desktop);
+    padding-block-start: 479px;
+  }
+}
