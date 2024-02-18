@@ -6,6 +6,7 @@
   --accent-color: #ff0070;
   --secondary-color: #000028;
   --title-color: #db00ff;
+  --title-block-color: #ff0070;
   --text-color: #f1b2ce;
   --main-font: 'IBM Plex mono';
   --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

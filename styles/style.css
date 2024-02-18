@@ -135,7 +135,7 @@
 }
 
 .main__block-title {
-  color: var(--accent-color);
+  color: var(--title-block-color);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -404,6 +404,18 @@
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 20px;
+  }
+
+  .decoration-title {
+    width: 315px;
+  }
+
+  .footer {
+    min-block-size: 768px;
+  }
+
+  .footer__title {
+    padding-block-start: 338px;
   }
 }
