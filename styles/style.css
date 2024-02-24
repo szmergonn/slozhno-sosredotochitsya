@@ -125,7 +125,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-block-end: 50px;
+  margin-block-end: 30px;
 }
 
 .main__block-title {
@@ -147,7 +147,6 @@
 .main__block__list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .main__block-title-info {
@@ -168,6 +167,7 @@
   font-size: 18px;
   line-height: 130%;
   color: var(--text-color);
+  margin-block-end: 20px;
 }
 
 .text-shadow {
@@ -265,7 +265,7 @@
 
   .main__block {
     flex-direction: row;
-    margin-block-end: 79px;
+    margin-block-end: 59px;
   }
 
   .main__block-title {
@@ -342,6 +342,10 @@
 
   .main__block-title {
     min-width: 315px;
+  }
+
+  .gap {
+    gap: 20px;
   }
 
   .grid {
