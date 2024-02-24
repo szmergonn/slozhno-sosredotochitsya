@@ -17,6 +17,7 @@
   --title-color: #ffc2e6;
   --title-shadow-color: #ff0070;
   --buttons-color: #353430;
+  --buttons-hover-color: rgba(50, 49, 45, 0.4);
   --main__block-title-color: #353430;
   --font-family: 'IBM Plex Mono', monospace;
   --background-image: url(../images/cover-image-light.png);
@@ -37,8 +38,13 @@
     --title-color: #ffc2e6;
     --title-shadow-color: #ff0070;
     --buttons-color: #353430;
+    --buttons-hover-color: rgba(50, 49, 45, 0.4);
     --main__block-title-color: #353430;
     --font-family: 'IBM Plex Mono', monospace;
     --background-image: url(../images/cover-image-light.png);
+
+    .header__design-rec {
+      display: none;
+    }
   }
 }

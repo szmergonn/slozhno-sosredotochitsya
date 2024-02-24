@@ -11,6 +11,7 @@
   --title-color: #db00ff;
   --title-shadow-color: #ff0070;
   --buttons-color: #ff0070;
+  --buttons-hover-color: rgba(255, 0, 112, 0.4);
   --main__block-title-color: #ff0070;
   --font-family: 'IBM Plex Mono', monospace;
   --background-image: url(../images/cover-image-dark.png);
