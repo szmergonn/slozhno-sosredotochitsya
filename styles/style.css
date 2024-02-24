@@ -136,6 +136,11 @@
 
 .main__block-title-other {
   margin-block-end: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: var(--text-section-color);
+  background-color: var(--accent-color);
 }
 
 .main__block__list {
@@ -176,14 +181,6 @@
 .text-shadow:focus {
   outline: none;
   border: 1px solid var(--text-color);
-}
-
-.main__block-title-other {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 130%;
-  color: var(--text-section-color);
-  background-color: var(--accent-color);
 }
 
 .main__gallery {
